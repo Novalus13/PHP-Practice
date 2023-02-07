@@ -23,8 +23,8 @@ if (!empty($txt)) {
 <body>
 <div style="text-align: center">
     <h1>Form to send feedback</h1>
-    <?php if ($result !== null): ?>
-    <div><b><?= $result ?></b></div><br>
+    <?php if ($res !== null): ?>
+    <div><b><?= $res ?></b></div><br>
     <?php endif; ?>
     <form action="feedback.php" method="post">
         <label for="text">Type your text:</label><br>
